@@ -1,1 +1,6 @@
-{"version":2,"name":"portfolio","builds":[{"src":"package.json","use":"@now/next"}]}
+{
+  "version": 2,
+  "name": "portfolio",
+  "alias": "orionxiao",
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}
