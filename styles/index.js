@@ -13,3 +13,9 @@ export const HeaderWrapper = styled.div`
     grid-row: 1 / 2;
     justify-self: center;
 `;
+
+export const Content = styled.div`
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    justify-self: center;
+`;

@@ -1,16 +1,18 @@
-import Link from "next/link";
 import Header from "../components/Header";
-import {Main} from '../styles';
+import { Main, Content } from "../styles";
 
 function Index() {
     return (
         <Main>
             <Header />
-            <section>
-                <Link href="/about">
-                    <a>Go to About Me</a>
-                </Link>
-            </section>
+            <Content>
+              <h1>
+                Hi, my name is Orion.
+              </h1>
+              <p>
+                Here's some stuff about me.
+              </p>
+            </Content>
         </Main>
     );
 }

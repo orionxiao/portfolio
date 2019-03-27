@@ -1,12 +1,14 @@
 import Header from "../components/Header";
-
+import { Main, Content } from "../styles";
 const About = () => (
-  <main>
-    <Header />
-    <p>
-      This will be the about page.
-    </p>
-  </main>
-)
+    <Main>
+        <Header />
+        <Content>
+          <p>
+            Here's some more stuff about me.
+          </p>
+        </Content>
+    </Main>
+);
 
 export default About;
