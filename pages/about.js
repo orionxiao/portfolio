@@ -1,14 +1,10 @@
-import Header from "../components/Header";
-import { Main, Content } from "../styles";
+import Page from "../layouts/Page";
 const About = () => (
-    <Main>
-        <Header />
-        <Content>
-          <p>
-            Here's some more stuff about me.
-          </p>
-        </Content>
-    </Main>
+    <Page>
+        <section className="content">
+            <p>Here's some more stuff about me.</p>
+        </section>
+    </Page>
 );
 
 export default About;

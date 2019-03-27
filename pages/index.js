@@ -1,20 +1,12 @@
-import Header from "../components/Header";
-import { Main, Content } from "../styles";
+import Page from "../layouts/Page";
 
-function Index() {
-    return (
-        <Main>
-            <Header />
-            <Content>
-              <h1>
-                Hi, my name is Orion.
-              </h1>
-              <p>
-                Here's some stuff about me.
-              </p>
-            </Content>
-        </Main>
-    );
-}
+const Index = () => (
+    <Page>
+        <section className="content">
+            <h1>Hi, my name is Orion.</h1>
+            <p>Here's some stuff about me.</p>
+        </section>
+    </Page>
+);
 
 export default Index;
