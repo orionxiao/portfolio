@@ -17,7 +17,13 @@
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/about": [
+    "/portfolio": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/bio": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

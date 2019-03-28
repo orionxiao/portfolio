@@ -8,6 +8,9 @@ const Meta = () => (
                 rel="stylesheet"
                 key="google-font-cabin"
             />
+            <title>
+                Orion Xiao
+            </title>
         </Head>
         <style global jsx>{`
             body {

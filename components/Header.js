@@ -3,9 +3,11 @@ import Link from "next/link";
 function Header() {
     return (
         <div className="header">
-            <Link href="/"><a>Home</a></Link>
-            &nbsp;&nbsp;&nbsp;
-            <Link href="/about"><a>About</a></Link>
+            <Link href="/" prefetch><a>Home</a></Link>
+            |
+            <Link href="/portfolio" prefetch><a>Portfolio</a></Link>
+            |
+            <Link href="/bio" prefetch><a>About</a></Link>
         </div>
     );
 }
