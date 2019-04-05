@@ -1,15 +1,21 @@
-import Link from "next/link";
+import Link from "next/link"
 
 function Header() {
     return (
         <div className="header">
-            <Link href="/" prefetch><a>Home</a></Link>
-            |
-            <Link href="/portfolio" prefetch><a>Portfolio</a></Link>
-            |
-            <Link href="/bio" prefetch><a>About</a></Link>
+            <Link href="#home" prefetch>
+                <a>Home</a>
+            </Link>
+
+            <Link href="#portfolio" prefetch>
+                <a>Portfolio</a>
+            </Link>
+
+            <Link href="#bio" prefetch>
+                <a>About</a>
+            </Link>
         </div>
-    );
+    )
 }
 
-export default Header;
+export default Header

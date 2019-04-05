@@ -1,0 +1,31 @@
+.spark {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 0.4vw;
+    height: 0.4vw;
+    margin: -0.2vw 0 0 9.8vw;
+    animation: ease 200s alternate infinite;
+    pointer-events: none;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        transform-origin: -10vw;
+    }
+    &::before {
+        background: black;
+        opacity: 0;
+        animation: drift ease alternate infinite;
+    }
+    &::after {
+        background: rgb(168, 31, 72);
+        opacity: 0;
+        box-shadow: 0 0 0vw 0vw rgb(228, 13, 84);
+        animation: drift ease alternate infinite, flash ease infinite;
+    }
+}
