@@ -1,6 +1,7 @@
 import { Component } from "react"
 import Meta from "../components/Meta"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar";
+
 import "../styles/styles.scss"
 
 class Page extends Component {
@@ -16,7 +17,8 @@ class Page extends Component {
         return (
             <>
                 <Meta />
-                {/* <div className="background-image" /> */}
+                <div className="main-bg" />
+                <Navbar />
                 <main className="main">
                     {this.props.children}
                     {this.displaySparks()}

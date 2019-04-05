@@ -4,14 +4,13 @@
 html,
 body {
     margin: 0;
-    background: rgba(12, 20, 31, 0.918);
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE 10+ */
     scroll-behavior: smooth;
     ::-webkit-scrollbar {
         /* WebKit */
-        width: 1.5px;
-        background: transparent;
+        width: 2px;
+        background: black;
     }
     /* Handle */
     ::-webkit-scrollbar-thumb {
@@ -24,6 +23,19 @@ body {
     display: flex;
     flex-direction: column;
     z-index: 100;
+    &::before {
+        content: " ";
+        position: fixed; // instead of background-attachment
+        width: 100%;
+        height: 100%;
+        background-image: url("/static/background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        will-change: transform; // creates a new paint layer
+        filter: hue-rotate(30deg);
+        z-index: -1;
+    }
 }
 
 .content {
@@ -62,7 +74,7 @@ body {
     border-radius: 1.5em;
     background: rgba(126, 5, 80, 0.445);
     border: 0.5px solid rgb(90, 1, 60);
-    transition: 0.3s linear;
+    transition: 0.2s linear;
     height: 3em;
     width: 3em;
     animation: shadow-pulse 1.5s linear infinite;
@@ -92,21 +104,28 @@ body {
     }
 }
 
-#home {
-    background-image: url("/static/background-texture.jpeg");
-    background-size: cover;
+.nav {
+    display: none;
+    @media screen and (min-width: 600px) {
+        height: 100%;
+        position: fixed;
+        left: 3%;
+        top: 42%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        height: 10vh;
+        z-index: 999;
+        line-height: 500%;
+        transition: 0.1s linear;
+        > a {
+            color: rgba(211, 211, 211, 0.856);
+            text-decoration: none;
+        }
+    }
 }
-
-// .header {
-//     width: 100%;
-//     position: fixed;
-//     top: 0px;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-evenly;
-//     align-content: center;
-//     height: 10vh;
-// }
 
 // .main {
 //     display: grid;
@@ -196,7 +215,7 @@ body {
 //     background-size: cover;
 //     display: block;
 //     filter: blur(5px);
-//     -webkit-filter: blur(5px);
+//     -webkit-filter: blur(5pease-in-outx);
 //     position: fixed;
 //     left: -1%;
 //     right: -1%;
