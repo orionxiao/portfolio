@@ -49,10 +49,10 @@ body {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+    color: rgb(180, 180, 180);
     z-index: 200;
     > h1 {
         animation: 1.5s fade-in;
-        font-size: 4.6em;
         margin: 15vh 10vw 6vh;
         letter-spacing: 0.05em;
         color: rgb(202, 202, 202);
@@ -63,13 +63,22 @@ body {
         font-size: 1.5em;
         margin: 0 10vw;
         line-height: 200%;
-        color: rgb(180, 180, 180);
     }
 }
 
 #home {
+    > h1 {
+        font-size: 2.5em;
+        margin: 30vh 10vw 6vh;
+    }
+    > p {
+        font-size: 1.5em;
+        margin: 0 10vw;
+        line-height: 220%;
+    }
     @media screen and(min-width: 321px) {
         > h1 {
+            font-size: 4.6em;
             margin: 20vh 10vw 7vh;
         }
         > p {
@@ -89,12 +98,27 @@ body {
     }
     @media screen and (min-width: 769px) {
         > h1 {
-            font-size: 5.85em;
-            margin: 27vh 10vw 6vh;
+            font-size: 5.9em;
+            margin: 25vh 10vw 7vh;
         }
         > p {
             font-size: 1.95em;
             line-height: 260%;
         }
+    }
+}
+
+#projects {
+    > h1 {
+        font-size: 2.5em;
+        margin: 7vh auto 1vh;
+    }
+}
+
+.carousel {
+    > img {
+        max-height: 50vh;
+        max-width: 70vw;
+        margin: 1vh 10vw;
     }
 }

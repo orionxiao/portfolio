@@ -1,4 +1,5 @@
 import Page from "../layouts/Page"
+import Carousel from "../components/Carousel"
 import DownButton from "../components/DownButton"
 
 const Index = () => (
@@ -9,16 +10,11 @@ const Index = () => (
                 Software Developer <br />
                 NYU Stern '19
             </p>
-            <DownButton href="#portfolio" />
+            <DownButton href="#projects" />
         </div>
-        <div className="content" id="portfolio">
-            <h1>CitiMap</h1>
-            <p>About CitiMap</p>
-            <DownButton href="#portfolio-1" />
-        </div>
-        <div className="content" id="portfolio-1">
-            <h1>Grouped</h1>
-            <p>About Grouped</p>
+        <div className="content" id="projects">
+            <h1>My Projects</h1>
+            <Carousel />
             <DownButton href="#contact" />
         </div>
         <div className="content" id="contact">

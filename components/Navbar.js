@@ -6,7 +6,7 @@ const Navbar = () => (
                 src="../static/home-icon.png"
             />
         </a>
-        <a href="#portfolio">
+        <a href="#projects">
             <img
                 style={{ height: "30px", width: "30px" }}
                 src="../static/code-icon.png"
