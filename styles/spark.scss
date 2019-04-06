@@ -23,9 +23,9 @@
         animation: drift ease alternate infinite;
     }
     &::after {
-        background: rgb(168, 31, 72);
+        background: rgb(168, 31, 100);
         opacity: 0;
-        box-shadow: 0 0 0vw 0vw rgb(228, 13, 84);
+        box-shadow: 0 0 0vw 0vw rgb(228, 13, 113);
         animation: drift ease alternate infinite, flash ease infinite;
     }
 }

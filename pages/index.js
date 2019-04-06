@@ -1,24 +1,25 @@
-import Link from "next/link"
 import Page from "../layouts/Page"
+import DownButton from "../components/DownButton"
 
 const Index = () => (
     <Page>
         <div className="content" id="home">
-            <h1>Hi, I'm Orion.</h1>
+            <h1>Orion Xiao</h1>
             <p className="home-description">
-                I study Finance and Data Science at NYU, with a minor in
-                Computer Science.
+                Software Developer <br />
+                NYU Stern '19
             </p>
-            <button className="btn">
-                <a href="#portfolio">⮟</a>
-            </button>
+            <DownButton href="#portfolio" />
         </div>
         <div className="content" id="portfolio">
-            <h1>Project 1</h1>
-            <p>About project 1</p>
-            <button className="btn">
-                <a href="#contact">⮟</a>
-            </button>
+            <h1>CitiMap</h1>
+            <p>About CitiMap</p>
+            <DownButton href="#portfolio-1" />
+        </div>
+        <div className="content" id="portfolio-1">
+            <h1>Grouped</h1>
+            <p>About Grouped</p>
+            <DownButton href="#contact" />
         </div>
         <div className="content" id="contact">
             <h1>Contact Me</h1>

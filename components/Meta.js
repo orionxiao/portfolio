@@ -8,17 +8,11 @@ const Meta = () => (
                 name="viewport"
             />
             <link
-                href="https://fonts.googleapis.com/css?family=Cabin"
+                href="https://fonts.googleapis.com/css?family=Cabin|Source+Sans+Pro"
                 rel="stylesheet"
-                key="google-font-cabin"
             />
             <title>Orion Xiao</title>
         </Head>
-        <style global jsx>{`
-            body {
-                font-family: "Cabin", sans-serif;
-            }
-        `}</style>
     </>
 )
 
