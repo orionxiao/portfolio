@@ -1,5 +1,4 @@
 import Page from "../layouts/Page"
-import Carousel from "../components/Carousel"
 import DownButton from "../components/DownButton"
 
 const Index = () => (
@@ -13,8 +12,9 @@ const Index = () => (
             <DownButton href="#projects" />
         </div>
         <div className="content" id="projects">
-            <h1>My Projects</h1>
-            <Carousel />
+            <h1>CitiMap</h1>
+            <img src="../static/citimap.png" />
+            <p>blah blah blah</p>
             <DownButton href="#contact" />
         </div>
         <div className="content" id="contact">
