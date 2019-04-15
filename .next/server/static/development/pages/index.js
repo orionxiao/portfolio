@@ -133,12 +133,20 @@ var Meta = function Meta() {
       lineNumber: 10
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "description",
+    content: "Orion Xiao - Software Developer, NYU '19 - https://github.com/orionxiao - https://linkedin.com/in/orionxiao",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: "https://fonts.googleapis.com/css?family=Cabin|Lora",
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -147,13 +155,13 @@ var Meta = function Meta() {
     href: "/static/favicon.ico",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, "Orion Xiao")));

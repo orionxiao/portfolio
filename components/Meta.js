@@ -8,6 +8,7 @@ const Meta = () => (
                 name="viewport"
             />
             <meta name="theme-color" content="#ffffff" />
+            <meta name="description" content="Orion Xiao - Software Developer, NYU '19 - https://github.com/orionxiao - https://linkedin.com/in/orionxiao"></meta>
             <link
                 href="https://fonts.googleapis.com/css?family=Cabin|Lora"
                 rel="stylesheet"
