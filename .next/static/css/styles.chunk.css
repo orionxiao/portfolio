@@ -35,6 +35,7 @@
 #projects {
   justify-content: space-evenly; }
   #projects > .project {
+    animation: 1.5s fade-in;
     border-radius: 4px;
     background: #1b1b1b;
     position: relative;
@@ -67,7 +68,7 @@
         margin: 0 0.6em; }
     #projects > .project > .bg-citimap {
       border-radius: 4px;
-      background-image: url("/static/citimap.jpg");
+      background-image: url("/static/thumbs/citimap.jpg");
       background-size: cover;
       opacity: 0.3;
       height: 100%;
@@ -75,11 +76,14 @@
       z-index: -1; }
     #projects > .project > .bg-grouped {
       border-radius: 4px;
-      background-image: url("/static/grouped.jpg");
+      background-image: url("/static/thumbs/grouped.jpg");
       background-size: cover;
       opacity: 0.3;
       height: 100%;
       z-index: -1; }
+  @media screen and (min-width: 321px) {
+    #projects .project > .project-desc {
+      top: 25%; } }
   @media screen and (min-width: 768px) {
     #projects .project > .project-desc {
       top: 28%;
@@ -104,18 +108,18 @@
 
 @keyframes slide-right {
   from {
-    margin-left: -5%;
+    margin-left: 5vw;
     opacity: 0; }
   to {
-    margin-left: 0%;
+    margin-left: 10vw;
     opacity: 1; } }
 
 @keyframes slide-left {
   from {
-    margin-right: -5%;
+    margin-left: 5vw;
     opacity: 0; }
   to {
-    margin-left: 0%;
+    margin-left: 0;
     opacity: 1; } }
 
 @keyframes fade-in {
@@ -123,46 +127,6 @@
     opacity: 0; }
   to {
     opacity: 1; } }
-
-@keyframes drift {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-
-@keyframes flash {
-  0%,
-  30%,
-  100% {
-    opacity: 0;
-    box-shadow: 0 0 0vw 0vw #d81470; }
-  5% {
-    opacity: 1;
-    box-shadow: 0 0 2vw 0.4vw #b6143c; } }
-
-@keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3); }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0); } }
-
-@-webkit-keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3); }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0); } }
-
-@-moz-keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3); }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0); } }
-
-@-ms-keyframes shadow-pulse {
-  0% {
-    box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3); }
-  100% {
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0); } }
 
 html,
 body {
@@ -208,16 +172,14 @@ h1 {
   text-align: center;
   z-index: 200; }
   .content > h1 {
-    font-family: "Lora", serif;
     animation: 1.5s fade-in;
     letter-spacing: 0.05em;
-    color: #444444; }
+    color: #181616; }
   .content > p {
-    animation: 2s fade-in;
+    animation: 2s slide-right;
     color: #555555; }
-  .content > .btn {
-    position: absolute;
-    top: 88%; }
+  .content > #btn-group {
+    animation: 2s slide-left; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

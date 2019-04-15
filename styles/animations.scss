@@ -1,22 +1,22 @@
 
 @keyframes slide-right {
     from {
-        margin-left: -5%;
+        margin-left: 5vw;
         opacity: 0;
     }
     to {
-        margin-left: 0%;
+        margin-left: 10vw;
         opacity: 1;
     }
 }
 
 @keyframes slide-left {
     from {
-        margin-right: -5%;
+        margin-left: 5vw;
         opacity: 0;
     }
     to {
-        margin-left: 0%;
+        margin-left: 0;
         opacity: 1;
     }
 }
@@ -28,64 +28,4 @@
     to {
         opacity: 1;
     }
-}
-
-@keyframes drift {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes flash {
-    0%,
-    30%,
-    100% {
-        opacity: 0;
-        box-shadow: 0 0 0vw 0vw rgb(216, 20, 112);
-    }
-    5% {
-        opacity: 1;
-        box-shadow: 0 0 2vw 0.4vw rgb(182, 20, 60);
-    }
-}
-
-@keyframes shadow-pulse
-{
-     0% {
-          box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3);
-     }
-     100% {
-          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-     }
-}
-
-@-webkit-keyframes shadow-pulse
-{
-     0% {
-          box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3);
-     }
-     100% {
-          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-     }
-}
-@-moz-keyframes shadow-pulse
-{
-     0% {
-          box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3);
-     }
-     100% {
-          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-     }
-}
-@-ms-keyframes shadow-pulse
-{
-     0% {
-          box-shadow: 0 0 0 0px rgba(199, 19, 109, 0.3);
-     }
-     100% {
-          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-     }
 }

@@ -32,18 +32,35 @@ var Meta = function Meta() {
       lineNumber: 6
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Cabin|Lora",
-    rel: "stylesheet",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "theme-color",
+    content: "#ffffff",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Cabin|Lora",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "shortcut icon",
+    type: "image/x-icon",
+    href: "/static/favicon.ico",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 20
     },
     __self: this
   }, "Orion Xiao")));
@@ -3645,7 +3662,7 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "../static/Xiao_Orion_Resume.pdf",
+    href: "../static/files/Xiao_Orion_Resume.pdf",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -3654,7 +3671,7 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://cdn4.iconfinder.com/data/icons/staff-management-vol-1/72/34-512.png",
+    src: "../static/icons/cv-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -3668,7 +3685,7 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://freeiconshop.com/wp-content/uploads/edd/code-outline.png",
+    src: "../static/icons/projects-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -3684,7 +3701,7 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67",
+    src: "../static/icons/github-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -3700,7 +3717,7 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://image.flaticon.com/icons/png/512/61/61109.png",
+    src: "../static/icons/linkedin-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
@@ -3758,21 +3775,21 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    src: "../static/icons/react-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://tutorialedge.net/images/node.png",
+    src: "../static/icons/node-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://image.flaticon.com/icons/png/512/873/873120.png",
+    src: "../static/icons/heroku-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
@@ -3814,7 +3831,7 @@ var Index = function Index() {
       lineNumber: 62
     },
     __self: this
-  }, "A Group Chat App"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Group Messaging App"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     id: "icon-group",
     __source: {
       fileName: _jsxFileName,
@@ -3822,21 +3839,21 @@ var Index = function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    src: "../static/icons/react-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
+    src: "../static/icons/redux-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://www.shareicon.net/download/2016/07/08/117547_developer_512x512.png",
+    src: "../static/icons/firebase-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66

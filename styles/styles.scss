@@ -48,17 +48,15 @@ h1 {
     text-align: center;
     z-index: 200;
     > h1 {
-        font-family: "Lora", serif;
         animation: 1.5s fade-in;
         letter-spacing: 0.05em;
-        color: rgb(68, 68, 68);
+        color: rgb(24, 22, 22);
     }
     > p {
-        animation: 2s fade-in;
+        animation: 2s slide-right;
         color: rgb(85, 85, 85);
     }
-    > .btn {
-        position: absolute;
-        top: 88%;
+    > #btn-group {
+        animation: 2s slide-left;
     }
 }

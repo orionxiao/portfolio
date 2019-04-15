@@ -1,6 +1,7 @@
 #projects {
     justify-content: space-evenly;
     > .project {
+        animation: 1.5s fade-in;
         border-radius: 4px;
         background: rgb(27, 27, 27);
         position: relative;
@@ -38,7 +39,7 @@
         }
         > .bg-citimap {
             border-radius: 4px;
-            background-image: url("/static/citimap.jpg");
+            background-image: url("/static/thumbs/citimap.jpg");
             background-size: cover;
             opacity: 0.3;
             height: 100%;
@@ -47,11 +48,16 @@
         }
         > .bg-grouped {
             border-radius: 4px;
-            background-image: url("/static/grouped.jpg");
+            background-image: url("/static/thumbs/grouped.jpg");
             background-size: cover;
             opacity: 0.3;
             height: 100%;
             z-index: -1;
+        }
+    }
+    @media screen and(min-width: 321px) {
+        .project > .project-desc {
+            top: 25%;
         }
     }
     @media screen and(min-width: 768px) {
