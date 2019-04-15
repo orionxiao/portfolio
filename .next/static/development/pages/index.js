@@ -1,49 +1,5 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/DownButton.js":
-/*!**********************************!*\
-  !*** ./components/DownButton.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/orion/Projects/portfolio/components/DownButton.js";
-
-
-var DownButton = function DownButton(_ref) {
-  var href = _ref.href;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: href,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../static/arrow-down.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (DownButton);
-
-/***/ }),
-
 /***/ "./components/Meta.js":
 /*!****************************!*\
   !*** ./components/Meta.js ***!
@@ -77,114 +33,23 @@ var Meta = function Meta() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Cabin|Source+Sans+Pro",
+    href: "https://fonts.googleapis.com/css?family=Cabin|Lora",
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 14
     },
     __self: this
   }, "Orion Xiao")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);
-
-/***/ }),
-
-/***/ "./components/Navbar.js":
-/*!******************************!*\
-  !*** ./components/Navbar.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/orion/Projects/portfolio/components/Navbar.js";
-
-
-var Navbar = function Navbar() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "nav",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#home",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    style: {
-      height: "30px",
-      width: "30px"
-    },
-    src: "../static/home-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#projects",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    style: {
-      height: "30px",
-      width: "30px"
-    },
-    src: "../static/code-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    style: {
-      height: "30px",
-      width: "30px"
-    },
-    src: "../static/user-icon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 
@@ -201,17 +66,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Meta */ "./components/Meta.js");
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.js");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_10__);
-
-
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_Meta__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Meta */ "./components/Meta.js");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -223,81 +83,46 @@ var _jsxFileName = "/home/orion/Projects/portfolio/layouts/Page.js";
 
 
 
-
 var Page =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Page, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Page, _Component);
 
   function Page() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Page);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Page)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "displaySparks", function () {
-      var sparks = [];
-
-      for (var i = 0; i < 15; i++) {
-        sparks.push(react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-          className: "spark",
-          key: i,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 11
-          },
-          __self: this
-        }));
-      }
-
-      return sparks;
-    });
-
-    return _this;
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Page).apply(this, arguments));
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Page, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 11
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "main-bg",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 12
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("main", {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("main", {
         className: "main",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 13
         },
         __self: this
-      }, this.props.children, this.displaySparks()));
+      }, this.props.children));
     }
   }]);
 
   return Page;
-}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Page);
 
@@ -505,36 +330,6 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
 }
 
 /***/ }),
@@ -3811,9 +3606,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _layouts_Page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/Page */ "./layouts/Page.js");
-/* harmony import */ var _components_DownButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/DownButton */ "./components/DownButton.js");
 var _jsxFileName = "/home/orion/Projects/portfolio/pages/index.js";
-
 
 
 
@@ -3821,7 +3614,7 @@ var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_layouts_Page__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -3829,84 +3622,227 @@ var Index = function Index() {
     id: "home",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Orion Xiao"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "Orion Xiao"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "home-description",
+  }, "Software Developer // NYU '19"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    id: "btn-group",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "Software Developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "../static/Xiao_Orion_Resume.pdf",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }), "NYU Stern '19"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_DownButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#projects",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content",
-    id: "projects",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://cdn4.iconfinder.com/data/icons/staff-management-vol-1/72/34-512.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "CitiMap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../static/citimap.png",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#projects",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://freeiconshop.com/wp-content/uploads/edd/code-outline.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "blah blah blah"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_DownButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#contact",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/orionxiao",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "content",
-    id: "contact",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 24
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://linkedin.com/in/orionxiao",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://image.flaticon.com/icons/png/512/61/61109.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content",
+    id: "projects",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "project",
+    href: "https://github.com/orionxiao/citimap",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bg-citimap",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 44
     },
     __self: this
-  }, "Contact Me")));
+  }, "CitiMap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "CitiBike Station Finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    id: "icon-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://tutorialedge.net/images/node.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://image.flaticon.com/icons/png/512/873/873120.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "project",
+    href: "https://github.com/orionxiao/grouped",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bg-grouped",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project-desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Grouped"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "A Group Chat App"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    id: "icon-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://www.shareicon.net/download/2016/07/08/117547_developer_512x512.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
