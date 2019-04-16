@@ -17,7 +17,7 @@
             margin: 0 0.9em;
             position: relative;
             > span {
-                color: gray;
+                color: rgb(73, 66, 102);
                 font-size: 0.75em;
                 position: absolute;
                 top: 2em;
@@ -61,7 +61,7 @@
             }
             &:hover {
                 > span {
-                    color: gray;
+                    color: rgb(73, 66, 102);
                 }
             }
         }

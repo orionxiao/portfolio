@@ -13,7 +13,7 @@
     margin: 0 0.9em;
     position: relative; }
     #home > #btn-group > a > span {
-      color: gray;
+      color: #494266;
       font-size: 0.75em;
       position: absolute;
       top: 2em;
@@ -42,7 +42,7 @@
       color: transparent;
       transition: 0.3s linear; }
     #home > #btn-group > a:hover > span {
-      color: gray; } }
+      color: #494266; } }
 
 #projects {
   justify-content: space-evenly; }
@@ -53,10 +53,10 @@
     position: relative;
     height: 45vh;
     width: 90vw;
-    -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.6);
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.6);
-    transition: 0.25s linear;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.6);
+    transition: 0.2s linear;
     cursor: pointer; }
     #projects > .project:hover {
       -webkit-box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.2);
@@ -172,7 +172,7 @@ h1 {
     content: " ";
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(175deg, #f0ebe4 77%, #dddeeb calc(77% + 2px)); }
+    background-image: linear-gradient(175deg, #f3eade 72%, #e8e5f3 calc(72% + 2px)); }
 
 .content {
   position: relative;
@@ -183,14 +183,14 @@ h1 {
   text-align: center;
   z-index: 200; }
   .content > h1 {
-    animation: 1.5s fade-in;
+    animation: 1s fade-in;
     letter-spacing: 0.05em;
-    color: #181616; }
+    color: #2c2836; }
   .content > p {
-    animation: 2s slide-right;
-    color: #555555; }
+    animation: 1s slide-right;
+    color: #555263; }
   .content > #btn-group {
-    animation: 2s slide-left; }
+    animation: 1s slide-left; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

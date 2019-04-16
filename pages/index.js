@@ -12,15 +12,11 @@ const Index = () => (
                     rel="noopener noreferrer"
                 >
                     <img src="../static/icons/cv-icon.png" />
-                    <span>
-                        Resume
-                    </span>
+                    <span>Resume</span>
                 </a>
                 <a href="#projects">
                     <img src="../static/icons/projects-icon.png" />
-                    <span>
-                        Projects
-                    </span>
+                    <span>Projects</span>
                 </a>
                 <a
                     href="https://github.com/orionxiao"
@@ -28,9 +24,7 @@ const Index = () => (
                     rel="noopener noreferrer"
                 >
                     <img src="../static/icons/github-icon.png" />
-                    <span>
-                        &nbsp;GitHub
-                    </span>
+                    <span>&nbsp;GitHub</span>
                 </a>
                 <a
                     href="https://linkedin.com/in/orionxiao"
@@ -38,9 +32,7 @@ const Index = () => (
                     rel="noopener noreferrer"
                 >
                     <img src="../static/icons/linkedin-icon.png" />
-                    <span>
-                        LinkedIn
-                    </span>
+                    <span>LinkedIn</span>
                 </a>
             </span>
         </div>

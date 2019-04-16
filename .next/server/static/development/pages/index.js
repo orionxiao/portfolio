@@ -616,20 +616,20 @@ var Index = function Index() {
     href: "#projects",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/projects-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -638,20 +638,20 @@ var Index = function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/github-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 27
     },
     __self: this
   }, "\xA0GitHub")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -660,20 +660,20 @@ var Index = function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/linkedin-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 35
     },
     __self: this
   }, "LinkedIn")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -681,7 +681,7 @@ var Index = function Index() {
     id: "projects",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -691,61 +691,61 @@ var Index = function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bg-citimap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 46
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 48
     },
     __self: this
   }, "CitiMap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 49
     },
     __self: this
   }, "CitiBike Station Finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     id: "icon-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/react-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 51
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/node-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 52
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/heroku-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 53
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -755,61 +755,61 @@ var Index = function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bg-grouped",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 63
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "project-desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 65
     },
     __self: this
   }, "Grouped"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 66
     },
     __self: this
   }, "Group Messaging App"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     id: "icon-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 67
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/react-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 68
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/redux-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 69
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../static/icons/firebase-icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 70
     },
     __self: this
   }))))));
