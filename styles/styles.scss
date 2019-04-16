@@ -11,13 +11,13 @@ body {
     scroll-behavior: smooth;
     ::-webkit-scrollbar {
         /* WebKit */
-        width: 3px;
-        background: black;
+        width: 0px;
+        display: none;
     }
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background: rgba(189, 13, 95, 0.4);
-        border-radius: 10px;
+        width: 0px;
+        display: none;
     }
 }
 
