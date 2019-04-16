@@ -71,6 +71,9 @@ const Index = () => (
                     </span>
                 </div>
             </a>
+            <a className="top" href="#">
+                <img src="https://cdn1.iconfinder.com/data/icons/arrows-97/24/444-512.png" />
+            </a>
         </div>
     </Page>
 )

@@ -1,4 +1,5 @@
 #projects {
+    position: relative;
     justify-content: space-evenly;
     > .project {
         animation: 1.5s fade-in;
@@ -55,6 +56,9 @@
             z-index: -1;
         }
     }
+    > .top {
+        display: none;
+    }
     @media screen and(min-width: 321px) {
         .project > .project-desc {
             top: 25%;
@@ -86,6 +90,28 @@
             }
             img {
                 margin: 0 1em;
+            }
+        }
+        > .top {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            display: initial;
+            position: absolute;
+            bottom: 4.5vh;
+            right: 6vh;
+            -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.6);
+            -moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.6);
+            transition: 0.2s linear;
+            > img {
+                height: 25px;
+                width: 25px;
+            }
+            &:hover {
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
             }
         }
     }

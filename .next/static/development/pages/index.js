@@ -3908,7 +3908,22 @@ var Index = function Index() {
       lineNumber: 70
     },
     __self: this
-  }))))));
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "top",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://cdn1.iconfinder.com/data/icons/arrows-97/24/444-512.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
