@@ -53,7 +53,7 @@ var Meta = function Meta() {
     rel: "stylesheet",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -62,13 +62,30 @@ var Meta = function Meta() {
     href: "/static/favicon.ico",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=UA-138447070-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    dangerouslySetInnerHTML: {
+      __html: "\n                        window.dataLayer = window.dataLayer || [];\n                        function gtag(){dataLayer.push(arguments);}\n                        gtag('js', new Date());\n                        gtag('config', 'UA-138447070-1');\n                        "
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 38
     },
     __self: this
   }, "Orion Xiao")));
