@@ -172,7 +172,7 @@ h1 {
     content: " ";
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(175deg, #f3eade 72%, #e8e5f3 calc(72% + 2px)); }
+    background-image: linear-gradient(175deg, #f3ece5 72%, #e7e4f1 calc(72% + 2px)); }
 
 .content {
   position: relative;
