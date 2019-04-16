@@ -21,7 +21,7 @@ const Meta = () => (
                 type="image/x-icon"
                 href="/static/favicon.ico"
             />
-            <script
+            {/* <script
                 async
                 src="https://www.googletagmanager.com/gtag/js?id=UA-138447070-1"
             />
@@ -34,7 +34,7 @@ const Meta = () => (
                         gtag('config', 'UA-138447070-1');
                         `
                 }}
-            />
+            /> */}
             <title>Orion Xiao</title>
         </Head>
     </>
