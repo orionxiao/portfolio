@@ -4,7 +4,7 @@ const Index = () => (
     <Page>
         <div className="content" id="home">
             <h1>Orion Xiao</h1>
-            <p>Software Developer // NYU '19</p>
+            <p>Web Developer // NYU '19</p>
             <span id="btn-group">
                 <a
                     href="../static/files/Xiao_Orion_Resume.pdf"
